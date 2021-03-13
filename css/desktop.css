@@ -1,0 +1,272 @@
+/* line 1, ../www/test/sass/desktop.scss */
+.font_a16, .content-m .subheading, .content-m .fancy_form .tos-text, .content-m .email input {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+@media screen and (max-height: 700px) {
+  /* line 11, ../www/test/sass/desktop.scss */
+  .col-main {
+    width: 50%;
+  }
+  /* line 15, ../www/test/sass/desktop.scss */
+  .col-side {
+    left: 50%;
+    width: 50%;
+  }
+}
+
+/* line 21, ../www/test/sass/desktop.scss */
+.pine {
+  height: 100vh;
+  background: url("/img/image_summer.png") no-repeat;
+  background-size: 64.58333333333333vw;
+  background-position: left;
+}
+
+/* line 27, ../www/test/sass/desktop.scss */
+.header {
+  padding-top: 9.259259259259259vh;
+  padding-right: 14.70588235294118%;
+  padding-left: 14.70588235294118%;
+  display: block;
+}
+
+@media screen and (max-height: 700px) {
+  /* line 27, ../www/test/sass/desktop.scss */
+  .header {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+/* line 40, ../www/test/sass/desktop.scss */
+header {
+  position: relative;
+  display: block;
+  height: 40px;
+}
+
+/* line 45, ../www/test/sass/desktop.scss */
+header .tinypine-img {
+  position: absolute;
+  left: 0;
+  display: inline;
+}
+
+/* line 51, ../www/test/sass/desktop.scss */
+header .tinypine-m {
+  position: absolute;
+  left: 8.33333333333333%;
+  top: 20px;
+  display: inline;
+}
+
+/* line 58, ../www/test/sass/desktop.scss */
+header ul {
+  margin: 0;
+  position: absolute;
+  display: inline;
+  left: 48.125%;
+  top: 19px;
+  padding: 0;
+}
+
+/* line 66, ../www/test/sass/desktop.scss */
+header ul span {
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+/* line 71, ../www/test/sass/desktop.scss */
+header ul li {
+  display: inline;
+}
+
+/* line 77, ../www/test/sass/desktop.scss */
+header .tinypine a {
+  transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 0.98);
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 91, ../www/test/sass/desktop.scss */
+header .tinypine a:link {
+  color: #131821;
+}
+
+/* line 95, ../www/test/sass/desktop.scss */
+header .tinypine a:hover {
+  color: #131821;
+  opacity: 0.5;
+}
+
+/* line 100, ../www/test/sass/desktop.scss */
+header .tinypine a:active {
+  color: #233759;
+}
+
+/* line 104, ../www/test/sass/desktop.scss */
+header .tinypine a:visited {
+  color: #131821;
+}
+
+/* line 109, ../www/test/sass/desktop.scss */
+.content {
+  display: block;
+  width: 35.41666666666667vw;
+  padding-top: 20vh;
+  z-index: 1;
+}
+
+@media screen and (max-height: 700px) {
+  /* line 109, ../www/test/sass/desktop.scss */
+  .content {
+    padding-top: 10vh;
+    width: 100%;
+  }
+}
+
+/* line 121, ../www/test/sass/desktop.scss */
+.trophy {
+  position: fixed;
+  left: 140px;
+  top: 269px;
+}
+
+/* line 126, ../www/test/sass/desktop.scss */
+.content-m {
+  display: inline-block;
+  position: relative;
+  padding-left: 14.70588235294118%;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 136, ../www/test/sass/desktop.scss */
+.content-m .heading {
+  padding-left: 40px;
+  padding-top: 21px;
+  width: 20.78125vw;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #131821;
+  margin: 0;
+}
+
+/* line 152, ../www/test/sass/desktop.scss */
+.content-m .subheading {
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 20px;
+  margin-right: 7.291666666666667vw;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+/* line 162, ../www/test/sass/desktop.scss */
+.content-m .fancy_form {
+  width: 100%;
+  padding-top: 49px;
+  display: inline-block;
+}
+
+/* line 167, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tooltip {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* line 173, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tos {
+  padding-left: 40px;
+  padding-top: 54px;
+}
+
+/* line 178, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .checkmark {
+  display: inline;
+  position: absolute;
+}
+
+/* line 183, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tos-text {
+  display: inline;
+  padding-left: 41px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+/* line 190, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tos-text a:link {
+  color: #131821;
+}
+
+/* line 194, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tos-text a:hover {
+  color: #4066A5;
+}
+
+/* line 198, ../www/test/sass/desktop.scss */
+.content-m .fancy_form .tos-text a:active {
+  color: #233759;
+}
+
+/* line 204, ../www/test/sass/desktop.scss */
+.content-m .email {
+  height: 70px;
+  width: 34.53125vw;
+}
+
+/* line 208, ../www/test/sass/desktop.scss */
+.content-m .email .submit {
+  position: absolute;
+  right: 6.03318250377074%;
+  top: 40%;
+}
+
+/* line 214, ../www/test/sass/desktop.scss */
+.content-m .email input {
+  padding-left: 40px;
+  padding-top: 2px;
+}
+
+/* line 222, ../www/test/sass/desktop.scss */
+.footer {
+  position: relative;
+  padding-bottom: 6px;
+  margin-top: 50px;
+}
+
+@media screen and (max-height: 700px) {
+  /* line 222, ../www/test/sass/desktop.scss */
+  .footer {
+    margin-top: 10px;
+  }
+}
+
+/* line 231, ../www/test/sass/desktop.scss */
+.footer .buttons {
+  margin: auto;
+  margin-top: 7.194726098450624%;
+  width: 35.88235294117647%;
+}
+
+@media screen and (max-height: 700px) {
+  /* line 231, ../www/test/sass/desktop.scss */
+  .footer .buttons {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=desktop.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "media.css",
+	"sources": [
+		"../sass/media.scss"
+	],
+	"sourcesContent": [
+		".media {\n    display: block;\n    position: relative;\n}\n.buttons {\n        margin-left: auto;\n        margin-right: auto;\n        text-align: justify;\n        -ms-text-justify: distribute-all-lines;\n        text-justify: distribute-all-lines;\n}\n.stretch {\n    width: 100%;\n    display: inline-block;\n    font-size: 0;\n    line-height: 0\n}\nhr {\n    width: 58.82352941176471%;\n    height: 1px;\n    border: none;\n    border-top: 1px solid #E3E3E4;\n}\n\nsvg:hover {\n    stroke: none;\n    filter: drop-shadow(0px 20px 40px rgba(19,24,33,0.5));\n\n    .ic {\n        fill: #FFFFFF;\n        opacity: 1;\n    }\n}\n\nsvg.fb:hover {\n    .cir {\n        fill: #4267B2;\n    }\n}\n\nsvg.fb:active {\n    .cir {\n        fill: #2F4A80;\n    }\n}\n\nsvg.inst:hover {\n    .cir {\n        fill: #C13584;\n    }\n}\n\nsvg.inst:active {\n    .cir {\n        fill: #8F2762;\n    }\n}\n\nsvg.tw:hover {\n    .cir {\n        fill: #1DA1F2;\n    }\n}\n\nsvg.tw:active {\n    .cir {\n        fill: #177FBF;\n    }\n}\n\nsvg.you:hover {\n    .cir {\n        fill: #FF0000;\n    }\n}\n\nsvg.you:active {\n    .cir {\n        fill: #CC0000;\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,QAAQ;CACrB;;;AACD,AAAA,QAAQ,CAAC;EACD,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,OAAO;EACnB,gBAAgB,EAAE,oBAAoB;EACtC,YAAY,EAAE,oBAAoB;CACzC;;;AACD,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,YAAY;EACrB,SAAS,EAAE,CAAC;EACZ,WAAW,EAAE,CACjB;CAAC;;;AACD,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,kBAAkB;EACzB,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,iBAAiB;CAChC;;;AAED,AAAA,GAAG,AAAA,MAAM,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,gDAA6C;CAMxD;;;AARD,AAII,GAJD,AAAA,MAAM,CAIL,GAAG,CAAC;EACA,IAAI,EAAE,OAAO;EACb,OAAO,EAAE,CAAC;CACb;;;AAGL,AACI,GADD,AAAA,GAAG,AAAA,MAAM,CACR,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,GAAG,AAAA,OAAO,CACT,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,KAAK,AAAA,MAAM,CACV,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,KAAK,AAAA,OAAO,CACX,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,GAAG,AAAA,MAAM,CACR,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,GAAG,AAAA,OAAO,CACT,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,IAAI,AAAA,MAAM,CACT,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB;;;AAGL,AACI,GADD,AAAA,IAAI,AAAA,OAAO,CACV,IAAI,CAAC;EACD,IAAI,EAAE,OAAO;CAChB"
+}

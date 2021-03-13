@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "checkbox.css",
+	"sources": [
+		"../sass/checkbox.scss"
+	],
+	"sourcesContent": [
+		"\n.container {\n    cursor: pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n\n.container input {\n    position:fixed;\n    opacity: 0;\n    cursor: pointer;\n    height: 0;\n    width: 0;\n}\n\n.checkmark {\n    width: 26px;\n    height: 26px;\n    background: #FFFFFF;\n    border-radius: 3px;\n    border: 1px solid #E3E3E4;\n}\n\n.check {\n    position: absolute;\n    top: 7px;\n    left: 5px;\n}\n\n.container input:checked ~ .checkmark {\n    background-color: #4066A5;\n}\n\n.checkmark:after {\n    content: \"\";\n    position: absolute;\n    display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n    display: block;\n}\n\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,OAAO;EACf,mBAAmB,EAAE,IAAI;EACzB,gBAAgB,EAAE,IAAI;EACtB,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,IAAI;CACpB;;;AAED,AAAA,UAAU,CAAC,KAAK,CAAC;EACb,QAAQ,EAAC,KAAK;EACd,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,CAAC;CACX;;;AAED,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,iBAAiB;CAC5B;;;AAED,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;CACZ;;;AAED,AAAA,UAAU,CAAC,KAAK,AAAA,QAAQ,GAAG,UAAU,CAAC;EAClC,gBAAgB,EAAE,OAAO;CAC5B;;;AAED,AAAA,UAAU,AAAA,MAAM,CAAC;EACb,OAAO,EAAE,EAAE;EACX,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;CAChB;;;AAED,AAAA,UAAU,CAAC,KAAK,AAAA,QAAQ,GAAG,UAAU,AAAA,MAAM,CAAC;EACxC,OAAO,EAAE,KAAK;CACjB"
+}

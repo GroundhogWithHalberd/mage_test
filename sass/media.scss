@@ -1,0 +1,81 @@
+.media {
+    display: block;
+    position: relative;
+}
+.buttons {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        -ms-text-justify: distribute-all-lines;
+        text-justify: distribute-all-lines;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+hr {
+    width: 58.82352941176471%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #E3E3E4;
+}
+
+svg:hover {
+    stroke: none;
+    filter: drop-shadow(0px 20px 40px rgba(19,24,33,0.5));
+
+    .ic {
+        fill: #FFFFFF;
+        opacity: 1;
+    }
+}
+
+svg.fb:hover {
+    .cir {
+        fill: #4267B2;
+    }
+}
+
+svg.fb:active {
+    .cir {
+        fill: #2F4A80;
+    }
+}
+
+svg.inst:hover {
+    .cir {
+        fill: #C13584;
+    }
+}
+
+svg.inst:active {
+    .cir {
+        fill: #8F2762;
+    }
+}
+
+svg.tw:hover {
+    .cir {
+        fill: #1DA1F2;
+    }
+}
+
+svg.tw:active {
+    .cir {
+        fill: #177FBF;
+    }
+}
+
+svg.you:hover {
+    .cir {
+        fill: #FF0000;
+    }
+}
+
+svg.you:active {
+    .cir {
+        fill: #CC0000;
+    }
+}

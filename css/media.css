@@ -1,0 +1,84 @@
+/* line 1, ../www/test/sass/media.scss */
+.media {
+  display: block;
+  position: relative;
+}
+
+/* line 5, ../www/test/sass/media.scss */
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+/* line 12, ../www/test/sass/media.scss */
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 18, ../www/test/sass/media.scss */
+hr {
+  width: 58.82352941176471%;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #E3E3E4;
+}
+
+/* line 25, ../www/test/sass/media.scss */
+svg:hover {
+  stroke: none;
+  filter: drop-shadow(0px 20px 40px rgba(19, 24, 33, 0.5));
+}
+
+/* line 29, ../www/test/sass/media.scss */
+svg:hover .ic {
+  fill: #FFFFFF;
+  opacity: 1;
+}
+
+/* line 36, ../www/test/sass/media.scss */
+svg.fb:hover .cir {
+  fill: #4267B2;
+}
+
+/* line 42, ../www/test/sass/media.scss */
+svg.fb:active .cir {
+  fill: #2F4A80;
+}
+
+/* line 48, ../www/test/sass/media.scss */
+svg.inst:hover .cir {
+  fill: #C13584;
+}
+
+/* line 54, ../www/test/sass/media.scss */
+svg.inst:active .cir {
+  fill: #8F2762;
+}
+
+/* line 60, ../www/test/sass/media.scss */
+svg.tw:hover .cir {
+  fill: #1DA1F2;
+}
+
+/* line 66, ../www/test/sass/media.scss */
+svg.tw:active .cir {
+  fill: #177FBF;
+}
+
+/* line 72, ../www/test/sass/media.scss */
+svg.you:hover .cir {
+  fill: #FF0000;
+}
+
+/* line 78, ../www/test/sass/media.scss */
+svg.you:active .cir {
+  fill: #CC0000;
+}
+
+/*# sourceMappingURL=media.css.map */

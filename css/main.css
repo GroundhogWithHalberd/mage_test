@@ -1,0 +1,783 @@
+/* line 1, ../www/test/sass/main.scss */
+html, body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 9, ../www/test/sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 13, ../www/test/sass/main.scss */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 19, ../www/test/sass/main.scss */
+[class*="col-"] {
+  float: left;
+}
+
+/* line 23, ../www/test/sass/main.scss */
+.row {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 30, ../www/test/sass/main.scss */
+.col-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35.41666666666667%;
+  z-index: 1;
+}
+
+/* line 38, ../www/test/sass/main.scss */
+.col-side {
+  position: absolute;
+  top: 0;
+  left: 35.41666666666667%;
+  width: 64.58333333333333%;
+}
+
+/* line 45, ../www/test/sass/main.scss */
+.col-1 {
+  width: 8.33%;
+}
+
+/* line 49, ../www/test/sass/main.scss */
+.col-2 {
+  width: 16.66%;
+}
+
+/* line 53, ../www/test/sass/main.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 57, ../www/test/sass/main.scss */
+.col-4 {
+  width: 33.33%;
+}
+
+/* line 61, ../www/test/sass/main.scss */
+.col-5 {
+  width: 41.66%;
+}
+
+/* line 65, ../www/test/sass/main.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 69, ../www/test/sass/main.scss */
+.col-7 {
+  width: 58.33%;
+}
+
+/* line 73, ../www/test/sass/main.scss */
+.col-8 {
+  width: 66.66%;
+}
+
+/* line 77, ../www/test/sass/main.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 81, ../www/test/sass/main.scss */
+.col-10 {
+  width: 83.33%;
+}
+
+/* line 85, ../www/test/sass/main.scss */
+.col-11 {
+  width: 91.66%;
+}
+
+/* line 89, ../www/test/sass/main.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 93, ../www/test/sass/main.scss */
+.idontneedyou {
+  display: none;
+}
+
+/* line 2, ../www/test/sass/form.scss */
+.fancy_form .email {
+  position: relative;
+  width: 97.5%;
+}
+
+/* line 6, ../www/test/sass/form.scss */
+.fancy_form .email input {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  box-sizing: border-box;
+  border-left: 4px solid #4066A5;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+/* line 19, ../www/test/sass/form.scss */
+.fancy_form .email .submit {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+}
+
+/* line 27, ../www/test/sass/form.scss */
+.fancy_form .email input:hover {
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+/* line 31, ../www/test/sass/form.scss */
+.fancy_form .email input:focus {
+  border: 1px solid #4066A5;
+  border-left: 4px solid #4066A5;
+  box-sizing: border-box;
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  outline: none;
+}
+
+/* line 40, ../www/test/sass/form.scss */
+.fancy_form .email input:focus + label.submit svg.submit_arrow .arrow {
+  fill: #4066A5;
+  opacity: 1;
+}
+
+/* line 2, ../www/test/sass/checkbox.scss */
+.container {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 10, ../www/test/sass/checkbox.scss */
+.container input {
+  position: fixed;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* line 18, ../www/test/sass/checkbox.scss */
+.checkmark {
+  width: 26px;
+  height: 26px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid #E3E3E4;
+}
+
+/* line 26, ../www/test/sass/checkbox.scss */
+.check {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+/* line 32, ../www/test/sass/checkbox.scss */
+.container input:checked ~ .checkmark {
+  background-color: #4066A5;
+}
+
+/* line 36, ../www/test/sass/checkbox.scss */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* line 42, ../www/test/sass/checkbox.scss */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* line 1, ../www/test/sass/media.scss */
+.media {
+  display: block;
+  position: relative;
+}
+
+/* line 5, ../www/test/sass/media.scss */
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+/* line 12, ../www/test/sass/media.scss */
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 18, ../www/test/sass/media.scss */
+hr {
+  width: 58.82352941176471%;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #E3E3E4;
+}
+
+/* line 25, ../www/test/sass/media.scss */
+svg:hover {
+  stroke: none;
+  filter: drop-shadow(0px 20px 40px rgba(19, 24, 33, 0.5));
+}
+
+/* line 29, ../www/test/sass/media.scss */
+svg:hover .ic {
+  fill: #FFFFFF;
+  opacity: 1;
+}
+
+/* line 36, ../www/test/sass/media.scss */
+svg.fb:hover .cir {
+  fill: #4267B2;
+}
+
+/* line 42, ../www/test/sass/media.scss */
+svg.fb:active .cir {
+  fill: #2F4A80;
+}
+
+/* line 48, ../www/test/sass/media.scss */
+svg.inst:hover .cir {
+  fill: #C13584;
+}
+
+/* line 54, ../www/test/sass/media.scss */
+svg.inst:active .cir {
+  fill: #8F2762;
+}
+
+/* line 60, ../www/test/sass/media.scss */
+svg.tw:hover .cir {
+  fill: #1DA1F2;
+}
+
+/* line 66, ../www/test/sass/media.scss */
+svg.tw:active .cir {
+  fill: #177FBF;
+}
+
+/* line 72, ../www/test/sass/media.scss */
+svg.you:hover .cir {
+  fill: #FF0000;
+}
+
+/* line 78, ../www/test/sass/media.scss */
+svg.you:active .cir {
+  fill: #CC0000;
+}
+
+/* line 1, ../www/test/sass/validation.scss */
+.tooltip {
+  display: inline-block;
+  z-index: 5;
+}
+
+/* line 4, ../www/test/sass/validation.scss */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  border: 4px solid red;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 19, ../www/test/sass/validation.scss */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  /* line 1, ../www/test/sass/mobile.scss */
+  .font_a16_mob, header .tinypine a, .content-m .subheading, .content-m .fancy_form .tos-text, .content-m .email input {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  /* line 9, ../www/test/sass/mobile.scss */
+  .col-main {
+    width: 100%;
+    height: 100vh;
+    background: url("/img/image_summer2.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 66px;
+  }
+  /* line 17, ../www/test/sass/mobile.scss */
+  .pine {
+    visibility: hidden;
+  }
+  /* line 21, ../www/test/sass/mobile.scss */
+  .header {
+    padding: 0;
+    display: block;
+  }
+  /* line 26, ../www/test/sass/mobile.scss */
+  header {
+    position: relative;
+    display: block;
+    height: 66px;
+  }
+  /* line 31, ../www/test/sass/mobile.scss */
+  header .tinypine-img {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: inline;
+  }
+  /* line 38, ../www/test/sass/mobile.scss */
+  header .tinypine-m {
+    visibility: hidden;
+  }
+  /* line 42, ../www/test/sass/mobile.scss */
+  header ul {
+    margin: 0;
+    position: absolute;
+    display: inline;
+    left: 149px;
+    top: 24px;
+    padding: 0;
+  }
+  /* line 50, ../www/test/sass/mobile.scss */
+  header ul span {
+    padding: 17px;
+  }
+  /* line 54, ../www/test/sass/mobile.scss */
+  header ul li {
+    display: inline;
+  }
+  /* line 60, ../www/test/sass/mobile.scss */
+  header .tinypine a {
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 0.98);
+    text-decoration: none;
+  }
+  /* line 69, ../www/test/sass/mobile.scss */
+  header .tinypine a:link {
+    color: #131821;
+  }
+  /* line 73, ../www/test/sass/mobile.scss */
+  header .tinypine a:hover {
+    color: #131821;
+    opacity: 0.5;
+  }
+  /* line 78, ../www/test/sass/mobile.scss */
+  header .tinypine a:active {
+    color: #233759;
+  }
+  /* line 82, ../www/test/sass/mobile.scss */
+  header .tinypine a:visited {
+    color: #131821;
+  }
+  /* line 88, ../www/test/sass/mobile.scss */
+  .content {
+    display: block;
+    margin: 188px 20px 187px 20px;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 0;
+  }
+  /* line 96, ../www/test/sass/mobile.scss */
+  .content-m {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  /* line 102, ../www/test/sass/mobile.scss */
+  .content-m .trophy {
+    padding-left: 19px;
+    padding-top: 31px;
+    margin-bottom: 5px;
+  }
+  /* line 108, ../www/test/sass/mobile.scss */
+  .content-m .heading {
+    padding-left: 20px;
+    padding-top: 33px;
+    padding-right: 20px;
+    margin: 0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #131821;
+  }
+  /* line 124, ../www/test/sass/mobile.scss */
+  .content-m .subheading {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-right: 20px;
+    line-height: 26px;
+    color: #6A707B;
+    margin-bottom: 22px;
+  }
+  /* line 135, ../www/test/sass/mobile.scss */
+  .content-m .tooltip {
+    position: sticky;
+    display: block;
+    z-index: 6;
+  }
+  /* line 141, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form {
+    width: 100%;
+    padding-left: 20px;
+    display: inline-block;
+  }
+  /* line 146, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .tos {
+    padding-top: 21px;
+  }
+  /* line 150, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .checkmark {
+    display: inline;
+    position: absolute;
+  }
+  /* line 155, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .tos-text {
+    display: inline;
+    padding-left: 41px;
+    line-height: 28px;
+    color: #6A707B;
+    font-size: 16px;
+  }
+  /* line 163, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .tos-text a:link {
+    color: #131821;
+  }
+  /* line 167, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .tos-text a:hover {
+    color: #4066A5;
+  }
+  /* line 171, ../www/test/sass/mobile.scss */
+  .content-m .fancy_form .tos-text a:active {
+    color: #233759;
+  }
+  /* line 177, ../www/test/sass/mobile.scss */
+  .content-m .email {
+    height: 60px;
+    width: 78.66666666666667vw;
+  }
+  /* line 181, ../www/test/sass/mobile.scss */
+  .content-m .email .submit {
+    position: absolute;
+    right: 6.03318250377074%;
+    top: 40%;
+  }
+  /* line 187, ../www/test/sass/mobile.scss */
+  .content-m .email input {
+    padding-left: 15px;
+    padding-top: 2px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  /* line 197, ../www/test/sass/mobile.scss */
+  .footer {
+    position: relative;
+    display: block;
+    margin: 0 20px 187px 20px;
+    background: #FFFFFF;
+  }
+  /* line 203, ../www/test/sass/mobile.scss */
+  .footer hr {
+    width: 78.66666666666667vw;
+  }
+  /* line 207, ../www/test/sass/mobile.scss */
+  .footer .buttons {
+    margin: auto;
+    width: 62.4vw;
+    padding-top: 24px;
+    padding-right: 17px;
+    padding-bottom: 7px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 1, ../www/test/sass/desktop.scss */
+  .font_a16, .content-m .subheading, .content-m .fancy_form .tos-text, .content-m .email input {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
+
+@media screen and (hover: hover) and (pointer: fine) and (max-height: 700px) {
+  /* line 11, ../www/test/sass/desktop.scss */
+  .col-main {
+    width: 50%;
+  }
+  /* line 15, ../www/test/sass/desktop.scss */
+  .col-side {
+    left: 50%;
+    width: 50%;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 21, ../www/test/sass/desktop.scss */
+  .pine {
+    height: 100vh;
+    background: url("/img/image_summer.png") no-repeat;
+    background-size: 64.58333333333333vw;
+    background-position: left;
+  }
+  /* line 27, ../www/test/sass/desktop.scss */
+  .header {
+    padding-top: 9.259259259259259vh;
+    padding-right: 14.70588235294118%;
+    padding-left: 14.70588235294118%;
+    display: block;
+  }
+}
+
+@media screen and (hover: hover) and (pointer: fine) and (max-height: 700px) {
+  /* line 27, ../www/test/sass/desktop.scss */
+  .header {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 40, ../www/test/sass/desktop.scss */
+  header {
+    position: relative;
+    display: block;
+    height: 40px;
+  }
+  /* line 45, ../www/test/sass/desktop.scss */
+  header .tinypine-img {
+    position: absolute;
+    left: 0;
+    display: inline;
+  }
+  /* line 51, ../www/test/sass/desktop.scss */
+  header .tinypine-m {
+    position: absolute;
+    left: 8.33333333333333%;
+    top: 20px;
+    display: inline;
+  }
+  /* line 58, ../www/test/sass/desktop.scss */
+  header ul {
+    margin: 0;
+    position: absolute;
+    display: inline;
+    left: 48.125%;
+    top: 19px;
+    padding: 0;
+  }
+  /* line 66, ../www/test/sass/desktop.scss */
+  header ul span {
+    padding-right: 26px;
+    padding-left: 26px;
+  }
+  /* line 71, ../www/test/sass/desktop.scss */
+  header ul li {
+    display: inline;
+  }
+  /* line 77, ../www/test/sass/desktop.scss */
+  header .tinypine a {
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 0.98);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  /* line 91, ../www/test/sass/desktop.scss */
+  header .tinypine a:link {
+    color: #131821;
+  }
+  /* line 95, ../www/test/sass/desktop.scss */
+  header .tinypine a:hover {
+    color: #131821;
+    opacity: 0.5;
+  }
+  /* line 100, ../www/test/sass/desktop.scss */
+  header .tinypine a:active {
+    color: #233759;
+  }
+  /* line 104, ../www/test/sass/desktop.scss */
+  header .tinypine a:visited {
+    color: #131821;
+  }
+  /* line 109, ../www/test/sass/desktop.scss */
+  .content {
+    display: block;
+    width: 35.41666666666667vw;
+    padding-top: 20vh;
+    z-index: 1;
+  }
+}
+
+@media screen and (hover: hover) and (pointer: fine) and (max-height: 700px) {
+  /* line 109, ../www/test/sass/desktop.scss */
+  .content {
+    padding-top: 10vh;
+    width: 100%;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 121, ../www/test/sass/desktop.scss */
+  .trophy {
+    position: fixed;
+    left: 140px;
+    top: 269px;
+  }
+  /* line 126, ../www/test/sass/desktop.scss */
+  .content-m {
+    display: inline-block;
+    position: relative;
+    padding-left: 14.70588235294118%;
+    width: 100%;
+    z-index: 1;
+  }
+  /* line 136, ../www/test/sass/desktop.scss */
+  .content-m .heading {
+    padding-left: 40px;
+    padding-top: 21px;
+    width: 20.78125vw;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #131821;
+    margin: 0;
+  }
+  /* line 152, ../www/test/sass/desktop.scss */
+  .content-m .subheading {
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-right: 7.291666666666667vw;
+    line-height: 28px;
+    color: #6A707B;
+  }
+  /* line 162, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form {
+    width: 100%;
+    padding-top: 49px;
+    display: inline-block;
+  }
+  /* line 167, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tooltip {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  /* line 173, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tos {
+    padding-left: 40px;
+    padding-top: 54px;
+  }
+  /* line 178, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .checkmark {
+    display: inline;
+    position: absolute;
+  }
+  /* line 183, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tos-text {
+    display: inline;
+    padding-left: 41px;
+    line-height: 28px;
+    color: #6A707B;
+  }
+  /* line 190, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tos-text a:link {
+    color: #131821;
+  }
+  /* line 194, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tos-text a:hover {
+    color: #4066A5;
+  }
+  /* line 198, ../www/test/sass/desktop.scss */
+  .content-m .fancy_form .tos-text a:active {
+    color: #233759;
+  }
+  /* line 204, ../www/test/sass/desktop.scss */
+  .content-m .email {
+    height: 70px;
+    width: 34.53125vw;
+  }
+  /* line 208, ../www/test/sass/desktop.scss */
+  .content-m .email .submit {
+    position: absolute;
+    right: 6.03318250377074%;
+    top: 40%;
+  }
+  /* line 214, ../www/test/sass/desktop.scss */
+  .content-m .email input {
+    padding-left: 40px;
+    padding-top: 2px;
+  }
+  /* line 222, ../www/test/sass/desktop.scss */
+  .footer {
+    position: relative;
+    padding-bottom: 6px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (hover: hover) and (pointer: fine) and (max-height: 700px) {
+  /* line 222, ../www/test/sass/desktop.scss */
+  .footer {
+    margin-top: 10px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  /* line 231, ../www/test/sass/desktop.scss */
+  .footer .buttons {
+    margin: auto;
+    margin-top: 7.194726098450624%;
+    width: 35.88235294117647%;
+  }
+}
+
+@media screen and (hover: hover) and (pointer: fine) and (max-height: 700px) {
+  /* line 231, ../www/test/sass/desktop.scss */
+  .footer .buttons {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

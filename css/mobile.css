@@ -1,0 +1,238 @@
+/* line 1, ../www/test/sass/mobile.scss */
+.font_a16_mob, header .tinypine a, .content-m .subheading, .content-m .fancy_form .tos-text, .content-m .email input {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* line 9, ../www/test/sass/mobile.scss */
+.col-main {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/image_summer2.png") no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: 66px;
+}
+
+/* line 17, ../www/test/sass/mobile.scss */
+.pine {
+  visibility: hidden;
+}
+
+/* line 21, ../www/test/sass/mobile.scss */
+.header {
+  padding: 0;
+  display: block;
+}
+
+/* line 26, ../www/test/sass/mobile.scss */
+header {
+  position: relative;
+  display: block;
+  height: 66px;
+}
+
+/* line 31, ../www/test/sass/mobile.scss */
+header .tinypine-img {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  display: inline;
+}
+
+/* line 38, ../www/test/sass/mobile.scss */
+header .tinypine-m {
+  visibility: hidden;
+}
+
+/* line 42, ../www/test/sass/mobile.scss */
+header ul {
+  margin: 0;
+  position: absolute;
+  display: inline;
+  left: 149px;
+  top: 24px;
+  padding: 0;
+}
+
+/* line 50, ../www/test/sass/mobile.scss */
+header ul span {
+  padding: 17px;
+}
+
+/* line 54, ../www/test/sass/mobile.scss */
+header ul li {
+  display: inline;
+}
+
+/* line 60, ../www/test/sass/mobile.scss */
+header .tinypine a {
+  transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 0.98);
+  text-decoration: none;
+}
+
+/* line 69, ../www/test/sass/mobile.scss */
+header .tinypine a:link {
+  color: #131821;
+}
+
+/* line 73, ../www/test/sass/mobile.scss */
+header .tinypine a:hover {
+  color: #131821;
+  opacity: 0.5;
+}
+
+/* line 78, ../www/test/sass/mobile.scss */
+header .tinypine a:active {
+  color: #233759;
+}
+
+/* line 82, ../www/test/sass/mobile.scss */
+header .tinypine a:visited {
+  color: #131821;
+}
+
+/* line 88, ../www/test/sass/mobile.scss */
+.content {
+  display: block;
+  margin: 188px 20px 187px 20px;
+  z-index: 1;
+  background: #FFFFFF;
+  padding: 0;
+}
+
+/* line 96, ../www/test/sass/mobile.scss */
+.content-m {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 102, ../www/test/sass/mobile.scss */
+.content-m .trophy {
+  padding-left: 19px;
+  padding-top: 31px;
+  margin-bottom: 5px;
+}
+
+/* line 108, ../www/test/sass/mobile.scss */
+.content-m .heading {
+  padding-left: 20px;
+  padding-top: 33px;
+  padding-right: 20px;
+  margin: 0;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #131821;
+}
+
+/* line 124, ../www/test/sass/mobile.scss */
+.content-m .subheading {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-right: 20px;
+  line-height: 26px;
+  color: #6A707B;
+  margin-bottom: 22px;
+}
+
+/* line 135, ../www/test/sass/mobile.scss */
+.content-m .tooltip {
+  position: sticky;
+  display: block;
+  z-index: 6;
+}
+
+/* line 141, ../www/test/sass/mobile.scss */
+.content-m .fancy_form {
+  width: 100%;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+/* line 146, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .tos {
+  padding-top: 21px;
+}
+
+/* line 150, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .checkmark {
+  display: inline;
+  position: absolute;
+}
+
+/* line 155, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .tos-text {
+  display: inline;
+  padding-left: 41px;
+  line-height: 28px;
+  color: #6A707B;
+  font-size: 16px;
+}
+
+/* line 163, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .tos-text a:link {
+  color: #131821;
+}
+
+/* line 167, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .tos-text a:hover {
+  color: #4066A5;
+}
+
+/* line 171, ../www/test/sass/mobile.scss */
+.content-m .fancy_form .tos-text a:active {
+  color: #233759;
+}
+
+/* line 177, ../www/test/sass/mobile.scss */
+.content-m .email {
+  height: 60px;
+  width: 78.66666666666667vw;
+}
+
+/* line 181, ../www/test/sass/mobile.scss */
+.content-m .email .submit {
+  position: absolute;
+  right: 6.03318250377074%;
+  top: 40%;
+}
+
+/* line 187, ../www/test/sass/mobile.scss */
+.content-m .email input {
+  padding-left: 15px;
+  padding-top: 2px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+/* line 197, ../www/test/sass/mobile.scss */
+.footer {
+  position: relative;
+  display: block;
+  margin: 0 20px 187px 20px;
+  background: #FFFFFF;
+}
+
+/* line 203, ../www/test/sass/mobile.scss */
+.footer hr {
+  width: 78.66666666666667vw;
+}
+
+/* line 207, ../www/test/sass/mobile.scss */
+.footer .buttons {
+  margin: auto;
+  width: 62.4vw;
+  padding-top: 24px;
+  padding-right: 17px;
+  padding-bottom: 7px;
+}
+
+/*# sourceMappingURL=mobile.css.map */

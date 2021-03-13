@@ -1,0 +1,7 @@
+CREATE DATABASE test;
+CREATE TABLE data (
+    ID int NOT NULL,
+    email varchar(255) NOT NULL,
+    reg_date timestamp DEFAULT CURRENT_TIMESTAMP(),
+    UNIQUE (email)
+);

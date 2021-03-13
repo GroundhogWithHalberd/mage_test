@@ -1,0 +1,241 @@
+.font_a16 {
+    font: {
+        family: Arial;
+        style: normal;
+        weight: normal;
+        size: 16px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .col-main {
+        width: 50%;
+    }
+
+    .col-side {
+        left: 50%;
+        width: 50%;
+    }
+}
+
+.pine {
+    height: 100vh;
+    background: url("/img/image_summer.png") no-repeat;
+    background-size: 64.58333333333333vw;
+    background-position: left;
+}
+.header {
+    padding-top: 9.259259259259259vh;
+    padding-right: 14.70588235294118%;
+    padding-left: 14.70588235294118%;
+
+    @media screen and (max-height: 700px) {
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    display: block;
+}
+header {
+    position: relative;
+    display: block;
+    height: 40px;
+
+    .tinypine-img {
+        position: absolute;
+        left: 0;
+        display: inline;
+    }
+
+    .tinypine-m {
+        position: absolute;
+        left: 8.33333333333333%;
+        top: 20px;
+        display: inline;
+    }
+
+    ul {
+        margin: 0;
+        position: absolute;
+        display: inline;
+        left: 48.125%;
+        top: 19px;
+        padding: 0;
+
+        span {
+            padding-right: 26px;
+            padding-left: 26px;
+        }
+
+        li {
+            display: inline;
+        }
+    }
+
+    .tinypine {
+        a {
+            transform: scale(1, 1.5);
+            -webkit-transform: scale(1, 0.98);
+
+            font: {
+                family: Arial;
+                style: normal;
+                weight: normal;
+                size: 16px;
+            }
+
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #131821;
+        }
+
+        a:hover {
+            color: #131821;
+            opacity: 0.5;
+        }
+
+        a:active {
+            color: #233759;
+        }
+
+        a:visited {
+            color: #131821;
+        }
+    }
+}
+.content {
+    display: block;
+    width: 35.41666666666667vw;
+    padding-top: 20vh;
+
+    @media screen and (max-height: 700px) {
+        padding-top: 10vh;
+        width: 100%;
+    }
+
+    z-index: 1;
+}
+.trophy {
+    position: fixed;
+    left: 140px;
+    top: 269px;
+}
+.content-m {
+    display: inline-block;
+    position: relative;
+    padding-left: 14.70588235294118%;
+
+
+
+    width: 100%;
+    z-index: 1;
+
+    .heading {
+        padding-left: 40px;
+        padding-top: 21px;
+        width: 20.78125vw;
+
+        font: {
+            family: Georgia;
+            style: normal;
+            weight: normal;
+            size: 32px;
+        }
+
+        color: #131821;
+        margin: 0;
+    }
+
+    .subheading {
+        margin: 0;
+        padding-left: 40px;
+        padding-top: 20px;
+        margin-right: 7.291666666666667vw;
+        @extend .font_a16;
+        line-height: 28px;
+        color: #6A707B;
+    }
+
+    .fancy_form {
+        width: 100%;
+        padding-top: 49px;
+        display: inline-block;
+
+        .tooltip {
+            position: absolute;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+
+        .tos {
+            padding-left: 40px;
+            padding-top: 54px;
+        }
+
+        .checkmark {
+            display: inline;
+            position: absolute;
+        }
+
+        .tos-text {
+            display: inline;
+            padding-left: 41px;
+            line-height: 28px;
+            color: #6A707B;
+            @extend .font_a16;
+
+            a:link {
+                color: #131821;
+            }
+
+            a:hover {
+                color: #4066A5;
+            }
+
+            a:active {
+                color: #233759;
+            }
+        }
+    }
+
+    .email {
+        height: 70px;
+        width: 34.53125vw;
+
+        .submit {
+            position: absolute;
+            right: 6.03318250377074%;
+            top: 40%;
+        }
+
+        input {
+            @extend .font_a16;
+            padding-left: 40px;
+            padding-top: 2px;
+        }
+    }
+}
+
+.footer {
+    position: relative;
+    padding-bottom: 6px;
+    margin-top: 50px;
+
+    @media screen and (max-height: 700px) {
+        margin-top: 10px;
+    }
+
+    .buttons {
+        margin: auto;
+        margin-top: 7.194726098450624%;
+        width: 35.88235294117647%;
+
+        @media screen and (max-height: 700px) {
+            margin-top: 10px;
+        }
+    }
+}
+ 

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "form.css",
+	"sources": [
+		"../sass/form.scss"
+	],
+	"sourcesContent": [
+		".fancy_form {\n    .email {\n        position: relative;\n        width: 97.5%;\n\n        input {\n            z-index: 1;\n            width: 100%;\n            height: 100%;\n            background: #FFFFFF;\n            border: 1px solid #E3E3E4;\n            box-sizing: border-box;\n            border-left: 4px solid #4066A5;\n            line-height: 28px;\n            color: #6A707B;\n\n        }\n\n        .submit {\n            position: absolute;\n            top: 40%;\n            z-index: 2;\n        }\n    }\n\n    .email {\n        input:hover {\n            box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);\n        }\n\n        input:focus {\n            border: 1px solid #4066A5;\n            border-left: 4px solid #4066A5;\n            box-sizing: border-box;\n            box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);\n            outline: none;\n\n            + label.submit {\n                svg.submit_arrow {\n                    .arrow {\n                        fill: #4066A5;\n                        opacity: 1;\n                    }\n                }\n            }\n        }\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AACI,WADO,CACP,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;CAoBf;;;AAvBL,AAKQ,WALG,CACP,MAAM,CAIF,KAAK,CAAC;EACF,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,iBAAiB;EAC9B,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;CAEjB;;;AAhBT,AAkBQ,WAlBG,CACP,MAAM,CAiBF,OAAO,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,OAAO,EAAE,CAAC;CACb;;;AAtBT,AA0BQ,WA1BG,CAyBP,MAAM,CACF,KAAK,AAAA,MAAM,CAAC;EACR,UAAU,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,sBAAsB;CACnD;;;AA5BT,AA8BQ,WA9BG,CAyBP,MAAM,CAKF,KAAK,AAAA,MAAM,CAAC;EACR,MAAM,EAAE,iBAAiB;EACzB,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAE,UAAU;EACtB,UAAU,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,sBAAsB;EAChD,OAAO,EAAE,IAAI;CAUhB;;;AA7CT,AAuCoB,WAvCT,CAyBP,MAAM,CAKF,KAAK,AAAA,MAAM,GAOL,KAAK,AAAA,OAAO,CACV,GAAG,AAAA,aAAa,CACZ,MAAM,CAAC;EACH,IAAI,EAAE,OAAO;EACb,OAAO,EAAE,CAAC;CACb"
+}

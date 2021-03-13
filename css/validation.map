@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "validation.css",
+	"sources": [
+		"../sass/validation.scss"
+	],
+	"sourcesContent": [
+		".tooltip {\r\n    display: inline-block;\r\n    z-index: 5;\r\n    .tooltiptext {\r\n        visibility: hidden;\r\n        width: 250px;\r\n        background-color: white;\r\n        color: #000;\r\n        text-align: center;\r\n        border-radius: 6px;\r\n        border: 4px solid red;\r\n        padding: 5px 0;\r\n        /* Position the tooltip */\r\n        position: absolute;\r\n        z-index: 1;\r\n    }\r\n}\r\n\r\n.tooltip:hover .tooltiptext {\r\n    visibility: visible;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,CAAC;CAcb;;;AAhBD,AAGI,QAHI,CAGJ,YAAY,CAAC;EACT,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,aAAa;EACrB,OAAO,EAAE,KAAK;EACd,0BAA0B;EAC1B,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;CACb;;;AAGL,AAAA,QAAQ,AAAA,MAAM,CAAC,YAAY,CAAC;EACxB,UAAU,EAAE,OAAO;CACtB"
+}

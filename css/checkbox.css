@@ -1,0 +1,52 @@
+/* line 2, ../www/test/sass/checkbox.scss */
+.container {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 10, ../www/test/sass/checkbox.scss */
+.container input {
+  position: fixed;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* line 18, ../www/test/sass/checkbox.scss */
+.checkmark {
+  width: 26px;
+  height: 26px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid #E3E3E4;
+}
+
+/* line 26, ../www/test/sass/checkbox.scss */
+.check {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+/* line 32, ../www/test/sass/checkbox.scss */
+.container input:checked ~ .checkmark {
+  background-color: #4066A5;
+}
+
+/* line 36, ../www/test/sass/checkbox.scss */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* line 42, ../www/test/sass/checkbox.scss */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/*# sourceMappingURL=checkbox.css.map */
